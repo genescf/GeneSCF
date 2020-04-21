@@ -1,5 +1,5 @@
 # GeneSCF
-Gene Set Clustering based on Functional annotation
+Gene Set Clustering based on Functional annotation. Most up-to-date and realtime information based gene enrichment analysis.
 <br>Publication: 
 <br>GeneSCF: a real-time based functional enrichment tool with support for multiple organisms. BMC Bioinformatics 17, 365 (2016).* https://doi.org/10.1186/s12859-016-1250-z
 
