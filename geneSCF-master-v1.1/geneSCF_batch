@@ -1,0 +1,45 @@
+#!/bin/bash
+TEST_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"; # Path having test datasets. No edit required from user side
+### GeneSCF v1.1 patch release 1 script
+
+### File/Folder path setup
+#files_path="/FOLDER/WHERE/GENE_LISTS/STORED"; ### please enter path to folder where all gene lists are stored (recommended to keep all files in same folder)
+files_path="$TEST_PATH/test"; # Test datasets. Edit the path for your own folder path.
+
+#output_path="/FOLDER/PATH/FOR/OUTPUT"; ### Enter the paths where output to be stored (Inside this output folder GeneSCF will automatically create individual sub-folders for each gene list)
+output_path="$TEST_PATH/test/output"; # Test datasets. Edit the path for your own folder path.
+
+### GeneSCF configuration. Please edit 'db_batch_config.txt' file
+mode="normal"; ### Please select the mode 'normal' or 'update'
+
+
+
+
+### No edit required below
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+db=( `cat $DIR/db_batch_config.txt | grep -v "^#" | cut -f1` );
+samples=$(ls -t -v -p $files_path/* | grep -v "[\:]$" | sed '/^\s*$/d' | tr '\n' ' ' | sed -e 's/\(.*\) /\1/g');
+
+jobsl=$(ls -t -v -p $files_path/* | grep -v "[\:]$" | sed '/^\s*$/d' | wc -l );
+jobsdb=$(cat $DIR/db_batch_config.txt |grep -v "^#" |  wc -l );
+total=$((jobsl*jobsdb))
+echo "Submitted jobs - $total";
+for i in $samples
+do
+
+IFS='/' read -a file_name <<< "$i";
+fname="${file_name[@]:(-1)}";
+mkdir $output_path/$fname;
+
+for j in "${db[@]}"
+do
+mydb=( `echo "$j" | tr -s ':' ' '` )
+
+echo "===============";
+echo "$DIR/geneSCF -i=${i} -o=$output_path/$fname/ -db=${mydb[0]} -t=${mydb[3]} -m=$mode -bg=${mydb[2]} -org=${mydb[1]} -p=yes";
+nohup $DIR/geneSCF -i=${i} -o=$output_path/$fname/ -db=${mydb[0]} -t=${mydb[3]} -m=$mode -bg=${mydb[2]} -org=${mydb[1]} -p=yes &> $output_path/$fname/${fname}_genescfv1.1_${mydb[0]}_run.log&
+
+done
+done
+
+
