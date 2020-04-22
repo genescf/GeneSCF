@@ -38,5 +38,5 @@ GeneSCF is a command line based and powerful tool to perform gene enrichment ana
 - Download complete GO terms/Pathways/Functions with associated genes as simple table format in a plain text file (Check "Two step process" below in "GeneSCF USAGE" section).
 
 <center><img src="http://genescf.kandurilab.org/pics/workflow.png" width="250" height="350"></center>
-![Slide1.png]("http://genescf.kandurilab.org/pics/workflow.png")
+![Slide1.png](http://genescf.kandurilab.org/pics/workflow.png)
 
