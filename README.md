@@ -23,3 +23,19 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
       * [Other output files](#other-output-files)
    * [License](#license)
 
+
+----------------------------
+# Overview
+----------------------------
+
+GeneSCF is a command line based and powerful tool to perform gene enrichment analysis. GeneSCF uses realtime informatin from repositories such as geneontology, KEGG, Reactome and NCG while performing the analysis. This increases reliability of the outcome compared to other available tools. GeneSCF is command line tool designed to easily integrate with any next-generation sequencing analysis pipelines. One can use multiple gene list in parallel to save time. In simple terms,
+
+- Real-time analysis, do not have to depend on enrichment tools to get updated.
+- Easy for computational biologists to integrate this simple tool with their NGS pipeline.
+- GeneSCF supports more organisms.
+- Enrichment analysis for Multiple gene list in single run.
+- Enrichment analysis for Multiple gene list using Multiple source database (GO,KEGG, REACTOME and NCG) in single run.
+- Download complete GO terms/Pathways/Functions with associated genes as simple table format in a plain text file (Check "Two step process" below in "GeneSCF USAGE" section).
+
+<center><img src="http://genescf.kandurilab.org/pics/workflow.png" width="250" height="350"></center>
+
