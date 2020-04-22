@@ -1,7 +1,0 @@
-#database:organism:background:type
-#GO_BP:goa_human:20000:sym
-#GO_MF:goa_human:20000:sym
-GO_CC:goa_human:20000:sym
-KEGG:hsa:20000:sym
-#REACTOME:Hs:20000:sym
-NCG:Hs:20000:sym
