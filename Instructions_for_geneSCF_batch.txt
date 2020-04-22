@@ -1,0 +1,39 @@
+
+
+GeneSCF v1.1 patch release - Instructions to run GeneSCF batch jobs
+=========================================================================
+
+Files added (patch scripts)
+---------------------------
+
+1) geneSCF_batch
+2) db_batch_config.txt
+3) Instructions_for_geneSCF_batch.txt
+
+
+What are these patch scripts for?
+---------------------------------
+
+These patch files can be used to run GeneSCF for multiple gene lists simultaneously (batch jobs).
+
+Example, if you want to do enrichment analysis for 100 gene list without writing command line for individual submission, these batch files can be used to submit all at once by simply specifying the folder where gene lists are stored and path to output folder.
+
+files_path="/FOLDER/WHERE/GENE_LISTS/STORED"
+output_path="/FOLDER/PATH/FOR/OUTPUT"
+
+Note:
+- Recommended to keep all input files in same folder.
+- Inside specified output folder path GeneSCF will automatically create individual sub-folders for each gene list. 
+
+
+How to use these patch files?
+-----------------------------
+
+1) Edit script './geneSCF-master-source-v1.1-px/geneSCF_batch' for your input files (files_path) and output path (output_path).
+
+files_path="/FOLDER/WHERE/GENE_LISTS/STORED"
+output_path="/FOLDER/PATH/FOR/OUTPUT"
+
+2) Edit file './geneSCF-master-source-v1.1-px/db_batch_config.txt' to configure your parameters for batch run.
+
+3) Execute [genescf_path]/geneSCF-master-source-v1.1-px/geneSCF_batch.
