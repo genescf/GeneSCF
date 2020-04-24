@@ -52,6 +52,6 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 - <b><i>Note</i></b>: <br>
 <p style="color:#0000FF">GeneSCF only works on Linux system, it has been successfully tested on Ubuntu, Mint and Cent OS. Other distributions of Linux might work as well.</p>
 
-<div class="text-green mb-2 ml-4">
-  .text-green on white
+<div class="text-purple">
+  This text is purple, <a href="#" class="text-inherit">including the link</a>
 </div>
