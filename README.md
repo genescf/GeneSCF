@@ -60,7 +60,7 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 ----------------------------
 # Command and options
 
-## `GeneSCF enrichment analysis command line`
+### GeneSCF enrichment analysis command line
 ``` r
 ./geneSCF -m=[update|normal] -i=[INPUT FILE] -t=[gid|sym] -o=[OUTPUT PATH/FOLDER/] -db=[GO_all|GO_BP|GO_MF|GO_CC|KEGG|REACTOME] -p=[yes|no] -bg=[#TotalGenes] -org=[see,org_codes_help]
 ```
