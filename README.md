@@ -8,7 +8,7 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
 
 ----------------------------
 # Table of Contents
-----------------------------
+
 
    * [Overview](#overview)
    * [Installation](#installation)
@@ -26,7 +26,7 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
 
 ----------------------------
 # Overview
-----------------------------
+
 
 GeneSCF is a command line based and powerful tool to perform gene enrichment analysis. GeneSCF uses realtime informatin from repositories such as geneontology, KEGG, Reactome and NCG while performing the analysis. This increases reliability of the outcome compared to other available tools. GeneSCF is command line tool designed to easily integrate with any next-generation sequencing analysis pipelines. One can use multiple gene list in parallel to save time. In simple terms,
 
@@ -41,7 +41,7 @@ GeneSCF is a command line based and powerful tool to perform gene enrichment ana
 
 ----------------------------
 # Installation
-----------------------------
+
 
 Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' (for .tar.gz file). Use it without any need for special installation procedures.<br>
 
@@ -59,7 +59,7 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 
 ----------------------------
 # Command and options
-----------------------------
+
 
 ``` r
 ./geneSCF -m=[update|normal] -i=[INPUT FILE] -t=[gid|sym] -o=[OUTPUT PATH/FOLDER/] -db=[GO_all|GO_BP|GO_MF|GO_CC|KEGG|REACTOME] -p=[yes|no] -bg=[#TotalGenes] -org=[see,org_codes_help]
