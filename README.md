@@ -65,7 +65,7 @@ There are two utilities available from GeneSCF package.
 1. One is the main command line '*geneSCF*', to perform gene enrichment analysis.
 2. Next, is the '*prepare_database*' command line to prepare the necessary database of an organism. GeneSCF by default comes with database for human consists of gene ontology, KEGG, Reactome, and NCG.
 
-### GeneSCF enrichment analysis command line
+### 1. GeneSCF enrichment analysis command line
 ``` r
 ./geneSCF -m=[update|normal] -i=[INPUT FILE] -t=[gid|sym] -o=[OUTPUT PATH/FOLDER/] -db=[GO_all|GO_BP|GO_MF|GO_CC|KEGG|REACTOME] -p=[yes|no] -bg=[#TotalGenes] -org=[see,org_codes_help]
 ```
@@ -85,4 +85,19 @@ There are two utilities available from GeneSCF package.
   <tr><td>`[-h | --help]`</td><td></td><td> For displaying this help page</td></tr>
 
   </table>
+  
+  ### 2. Preparing database - command line
+  ``` r
+  ./prepare_database -db=[GO_all|GO_BP|GO_MF|GO_CC|KEGG|REACTOME|NCG] -org=[see,org_codes_help directory]
+  ```
+  
+  <table>
+  <tr><th>Available Parameters in geneSCF</th><th>Options</th><th>Description</th></tr>
+  <tr><td>`[-db= | --database=]`</td><td>GO_all<br>GO_BP<br>GO_CC<br>GO_MF<br>KEGG<br>REACTOME<br>NCG<br></td><td>Database to use as a source for finding gene enrichment, the options are either geneontology <i>GO_all</i> or geneontology-biological_process <i>GO_BP</i> or geneontology-molecular_function <i>GO_MF</i> or geneontology-cellular_components <i>GO_CC</i> or kegg <i>KEGG</i> or reactome <i>REACTOME</i> or Network of Cancer Genes <i>NCG</i></td></tr>
+  <tr><td>`[-org= | --organism=]`</td><td>[<a href="https://github.com/genescf/GeneSCF/tree/master/org_codes_help">see organism codes</a>]</td><td>Please see organism codes (For human in KEGG -><i>hsa</i> in Geneontology -> <i>goa_human</i>)</td></tr>
+  </table>
+  
+  
+  
+  
 
