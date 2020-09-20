@@ -77,5 +77,10 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 | `[-p= \| --plot=]`      | For additional graphical output use *yes* or *no*.This requires R version > 3.0 and *ggplot2* R package to be pre-installed on the system.     |
 | `[-h \| --help]`    | For displaying this help page.         |
 
+Some table
 
+<table>
+  <tr><th>Options</th><th>Description</th></tr>
+  <tr><td>[-m= \| --mode=]</td><td>For normal mode use *normal* and for update mode use *update* without quotes</td></tr>
+  </table>
 
