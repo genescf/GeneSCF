@@ -12,9 +12,7 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
 
    * [Overview](#overview)
    * [Installation](#installation)
-   * [Command and subcommands](#command-and-subcommands)
-   * [GeneSCF 1.1 detailed usage (Recent version)](#genescf-1.1-detailed-usage)
-      * [Commands and parameters](#Command-and-parameters)
+   * [Commands and parameters](#Command-and-parameters)
       * [Input files](#genescf-v1.0-input)
       * [Output files](#output-files)
          * [TSV](#tsv)
