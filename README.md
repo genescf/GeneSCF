@@ -66,7 +66,7 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 ```
 
 | Options         | Description                                     |
-|------------------|----------------------------------------------------------------------------|
+|--------------------------------|----------------------------------------------------------------------------|
 | `[-m= \| --mode=]` | For normal mode use *normal* and for update mode use *update* without quotes.     |
 | `[-i= \| --infile=]`  | Input file contains list of Entrez GeneIDs or OFFICIAL GENE SYMBOLS.The genes must be new lines seperated (One gene per line).      |
 | `[-t= \| --gtype=]`   | Type of input in the provided list either Entrez GeneIDs *gid* or OFFICIAL GENE SYMBOLS *sym* (default: *gid*).         |
