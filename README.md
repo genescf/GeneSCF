@@ -65,22 +65,10 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 ./geneSCF -m=[update|normal] -i=[INPUT FILE] -t=[gid|sym] -o=[OUTPUT PATH/FOLDER/] -db=[GO_all|GO_BP|GO_MF|GO_CC|KEGG|REACTOME] -p=[yes|no] -bg=[#TotalGenes] -org=[see,org_codes_help]
 ```
 
-| Options         | Description                                     |
-|--------------------------------|----------------------------------------------------------------------------|
-| `[-m= \| --mode=]` | For normal mode use *normal* and for update mode use *update* without quotes.     |
-| `[-i= \| --infile=]`  | Input file contains list of Entrez GeneIDs or OFFICIAL GENE SYMBOLS.The genes must be new lines seperated (One gene per line).      |
-| `[-t= \| --gtype=]`   | Type of input in the provided list either Entrez GeneIDs *gid* or OFFICIAL GENE SYMBOLS *sym* (default: *gid*).         |
-| `[-db= \| --database=]` | Database to use as a source for finding gene enrichment, the options are either geneontology *GO_all* or geneontology-biological_process *GO_BP* or geneontology-molecular_function *GO_MF* or geneontology-cellular_components *GO_CC* or kegg *KEGG* or reactome *REACTOME* or Network of Cancer Genes *NCG*. \|
-| `[-o= \| --outpath=]`     | Existing directory to save output file (Don't forget to use trailing slash at end of the directory name). The output will be saved in the provided location as *{INPUT_FILE_NAME}_{database}_functional_classification.tsv* (tab-seperated file). **Note**: the specified folder should exist because GeneSCF does not create any output folder.                            |
-| `[-bg= \| --background=]`     | Total background genes to consider (Example : ~*20,000* for human).                           |
-| `[-org= \| --organism=]` | Please see organism codes(For human in KEGG ->*hsa* in Geneontology -> *goa_human*).          |
-| `[-p= \| --plot=]`      | For additional graphical output use *yes* or *no*.This requires R version > 3.0 and *ggplot2* R package to be pre-installed on the system.     |
-| `[-h \| --help]`    | For displaying this help page.         |
 
-Some table 
 
 <table>
-  <tr><th style="width:70%">Available Parameters in geneSCF</th><th>Options</th><th>Description</th></tr>
+  <tr><th style='width:70%'>Available Parameters in geneSCF</th><th>Options</th><th>Description</th></tr>
   <tr><td>`[-m= | --mode=]`</td><td>normal/update</td><td>For normal mode use *normal* and for <br>update mode use *update* without quotes</td></tr>
   <tr><td>`[-i= | --infile=]`</td><td></td><td>Input file contains list of Entrez GeneIDs or <br>OFFICIAL GENE SYMBOLS.The genes must <br>be new lines seperated (One gene per line)</td></tr>
   <tr><td>`[-t= | --gtype=]`</td><td></td><td>Type of input in the provided list either Entrez <br>GeneIDs *gid* or OFFICIAL GENE SYMBOLS <br>*sym* (default: *gid*)</td></tr>
