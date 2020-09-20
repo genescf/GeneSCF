@@ -60,6 +60,11 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 ----------------------------
 # Command and options
 
+There are two utilities available from GeneSCF package. 
+
+1. One is the main command line '*geneSCF*', to perform gene enrichment analysis.
+2. Next, is the '*prepare_database*' command line to prepare the necessary database of an organism. GeneSCF by default comes with database for human consists of gene ontology, KEGG, Reactome, and NCG.
+
 ### GeneSCF enrichment analysis command line
 ``` r
 ./geneSCF -m=[update|normal] -i=[INPUT FILE] -t=[gid|sym] -o=[OUTPUT PATH/FOLDER/] -db=[GO_all|GO_BP|GO_MF|GO_CC|KEGG|REACTOME] -p=[yes|no] -bg=[#TotalGenes] -org=[see,org_codes_help]
@@ -68,7 +73,7 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 
 
 <table>
-  <tr><th style='width:70%'>Available Parameters in geneSCF</th><th>Options</th><th>Description</th></tr>
+  <tr><th>Available Parameters in geneSCF</th><th>Options</th><th>Description</th></tr>
   <tr><td>`[-m= | --mode=]`</td><td>normal<br>update</td><td>For normal mode use <i>normal</i> and for <i>update</i> mode use *update* without quotes</td></tr>
   <tr><td>`[-i= | --infile=]`</td><td>[TEXT-FILE]</td><td>Input file contains list of Entrez GeneIDs or OFFICIAL GENE SYMBOLS.The genes must be new lines seperated (One gene per line)</td></tr>
   <tr><td>`[-t= | --gtype=]`</td><td>gid<br>sym</td><td>Type of input in the provided list either Entrez GeneIDs <i>gid</i> or OFFICIAL GENE SYMBOLS <i>sym</i> (default: *gid*)</td></tr>
