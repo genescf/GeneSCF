@@ -69,14 +69,14 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 
 <table>
   <tr><th style='width:70%'>Available Parameters in geneSCF</th><th>Options</th><th>Description</th></tr>
-  <tr><td>`[-m= | --mode=]`</td><td>normal/update</td><td>For normal mode use <i>normal</i> and for <i>update</i> mode use *update* without quotes</td></tr>
-  <tr><td>`[-i= | --infile=]`</td><td></td><td>Input file contains list of Entrez GeneIDs or OFFICIAL GENE SYMBOLS.The genes must be new lines seperated (One gene per line)</td></tr>
-  <tr><td>`[-t= | --gtype=]`</td><td></td><td>Type of input in the provided list either Entrez GeneIDs <i>gid</i> or OFFICIAL GENE SYMBOLS <i>sym</i> (default: *gid*)</td></tr>
-  <tr><td>`[-db= | --database=]`</td><td></td><td>Database to use as a source for finding gene enrichment, the options are either geneontology <i>GO_all</i> or geneontology-biological_process <i>GO_BP</i> or geneontology-molecular_function <i>GO_MF</i> or geneontology-cellular_components <i>GO_CC</i> or kegg <i>KEGG</i> or reactome <i>REACTOME</i> or Network of Cancer Genes <i>NCG</i></td></tr>
-  <tr><td>`[-o= | --outpath=]`</td><td></td><td>Existing directory to save output file (Don't forget to use trailing slash at end of the directory name). The output will be saved in the provided location as <i>{INPUT_FILE_NAME}_{database}_functional_classification.tsv<i> (tab-seperated file). **Note**: the specified folder should exist because GeneSCF does not create any output folder</td></tr>
-  <tr><td>`[-bg= | --background=]`</td><td></td><td>Total background genes to consider (Example : ~<i>20,000<i> for human)</td></tr>
-  <tr><td>`[-org= | --organism=]`</td><td></td><td>Please see organism codes (For human in KEGG -><i>hsa</i> in Geneontology -> <i>goa_human</i>)</td></tr>
-  <tr><td>`[-p= | --plot=]`</td><td></td><td>For additional graphical output use <i>yes</i> or <i>no<i>.This requires R version > 3.0 and <i>ggplot2</i> R package to be pre-installed on the system</td></tr>
+  <tr><td>`[-m= | --mode=]`</td><td>normal<br>update</td><td>For normal mode use <i>normal</i> and for <i>update</i> mode use *update* without quotes</td></tr>
+  <tr><td>`[-i= | --infile=]`</td><td>[TEXT-FILE]</td><td>Input file contains list of Entrez GeneIDs or OFFICIAL GENE SYMBOLS.The genes must be new lines seperated (One gene per line)</td></tr>
+  <tr><td>`[-t= | --gtype=]`</td><td>gid<br>sym</td><td>Type of input in the provided list either Entrez GeneIDs <i>gid</i> or OFFICIAL GENE SYMBOLS <i>sym</i> (default: *gid*)</td></tr>
+  <tr><td>`[-db= | --database=]`</td><td>GO_all<br>GO_BP<br>GO_CC<br>GO_MF<br>KEGG<br>REACTOME<br>NCG<br></td><td>Database to use as a source for finding gene enrichment, the options are either geneontology <i>GO_all</i> or geneontology-biological_process <i>GO_BP</i> or geneontology-molecular_function <i>GO_MF</i> or geneontology-cellular_components <i>GO_CC</i> or kegg <i>KEGG</i> or reactome <i>REACTOME</i> or Network of Cancer Genes <i>NCG</i></td></tr>
+  <tr><td>`[-o= | --outpath=]`</td><td>[OUTPUT-DIRECTORY]</td><td>Existing directory to save output file (Don't forget to use trailing slash at end of the directory name). The output will be saved in the provided location as <i>{INPUT_FILE_NAME}_{database}_functional_classification.tsv<i> (tab-seperated file). **Note**: the specified folder should exist because GeneSCF does not create any output folder</td></tr>
+  <tr><td>`[-bg= | --background=]`</td><td>Total genes from the organism</td><td>Total background genes to consider (Example : ~<i>20,000<i> for human)</td></tr>
+  <tr><td>`[-org= | --organism=]`</td><td>[<a href="https://github.com/genescf/GeneSCF/tree/master/org_codes_help">see organism codes</a>]</td><td>Please see organism codes (For human in KEGG -><i>hsa</i> in Geneontology -> <i>goa_human</i>)</td></tr>
+  <tr><td>`[-p= | --plot=]`</td><td>yes<br>no</td><td>For additional graphical output use <i>yes</i> or <i>no<i>.This requires R version > 3.0 and <i>ggplot2</i> R package to be pre-installed on the system</td></tr>
   <tr><td>`[-h | --help]`</td><td></td><td> For displaying this help page</td></tr>
 
   </table>
