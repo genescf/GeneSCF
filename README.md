@@ -14,7 +14,7 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
    * [Installation](#installation)
    * [Command and subcommands](#command-and-subcommands)
    * [GeneSCF 1.1 detailed usage (Recent version)](#genescf-1.1-detailed-usage)
-      * [Command and options](#Command-and-options)
+      * [Commands and parameters](#Command-and-parameters)
       * [Input files](#genescf-v1.0-input)
       * [Output files](#output-files)
          * [TSV](#tsv)
@@ -58,7 +58,7 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 
 
 ----------------------------
-# Command and options
+# Command and parameters
 
 There are two utilities available from GeneSCF package. 
 
