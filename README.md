@@ -80,7 +80,7 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 Some table
 
 <table>
-  <tr><th>Parameters</th><th>Options</th><th>Description</th></tr>
+  <tr><th>Parameters       </th><th>Options</th><th>Description</th></tr>
   <tr><td>`[-m= | --mode=]`</td><td>normal/update</td><td>For normal mode use *normal* and for <br>update mode use *update* without quotes</td></tr>
   <tr><td>`[-i= | --infile=]`</td><td></td><td>Input file contains list of Entrez GeneIDs or <br>OFFICIAL GENE SYMBOLS.The genes must <br>be new lines seperated (One gene per line)</td></tr>
   <tr><td>`[-t= | --gtype=]`</td><td></td><td>Type of input in the provided list either Entrez <br>GeneIDs *gid* or OFFICIAL GENE SYMBOLS <br>*sym* (default: *gid*)</td></tr>
