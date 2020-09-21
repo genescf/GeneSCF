@@ -18,7 +18,7 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
          * [TSV](#tsv)
          * [Image](#image)
          * [GeneMap](#genemap)
-      * [Other output files](#other-output-files)
+      * [Other GeneSCF tricks](#other-tweaks)
    * [License](#license)
 
 
@@ -63,7 +63,7 @@ There are two utilities available from GeneSCF package.
 1. One is the main command line '*geneSCF*', to perform gene enrichment analysis.
 2. Next, is the '*prepare_database*' command line to prepare the necessary database of an organism. GeneSCF by default comes with database for human consists of gene ontology, KEGG, Reactome, and NCG.
 
-### 1. GeneSCF enrichment analysis command line
+### 1. GeneSCF enrichment analysis - command line
 ``` r
 ./geneSCF -m=[update|normal] -i=[INPUT FILE] -t=[gid|sym] -o=[OUTPUT PATH/FOLDER/] -db=[GO_all|GO_BP|GO_MF|GO_CC|KEGG|REACTOME] -p=[yes|no] -bg=[#TotalGenes] -org=[see,org_codes_help]
 ```
