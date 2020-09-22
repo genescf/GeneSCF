@@ -14,11 +14,13 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
    * [Installation](#installation)
    * [General usage](#general-usage)
    * [Step-by-step instructions (simple usage)](#Step-by-step-instructions)
-      + [Preparing database](#Preparing-database)
-      + [Enrichment analysis](#Enrichment-analysis)
-      + [Single-step enrichment analysis](#Single-step-enrichment-analysis)
+      + [Preparing database](#1.-Preparing-database)
+      + [Enrichment analysis](#2.-Enrichment-analysis)
+      + [Single-step enrichment analysis](#3.-Single-step-enrichment-analysis)
    * [GeneSCF batch analysis](#GeneSCF-batch-analysis)
-      + [Preparing database](#Preparing-database)
+      + [Preparing arguments file](#Preparing-arguments-file)
+      + [Edit batch script](#Edit-batch-script)
+      + [Run batch analysis](#Run-batch-analysis)
        
 
 
@@ -177,5 +179,10 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
  ----------------------------
 # GeneSCF batch analysis
  
-  
+## Preparing arguments file
+
+## Edit batch script
+ 
+## Run batch analysis
+
 
