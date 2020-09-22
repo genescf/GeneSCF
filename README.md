@@ -14,8 +14,8 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
    * [Installation](#installation)
    * [General usage](#general-usage)
    * [Step-by-step instructions](#Step-by-step-instructions)
-      * [Preparing database](###Preparing-database)
-      * [Enrichment analysis](###Enrichment-analysis)
+      * [Preparing database](##Preparing-database)
+      * [Enrichment analysis](##Enrichment-analysis)
        
 
 
@@ -60,7 +60,7 @@ There are two utilities available from GeneSCF package.
 1. One is the main command line '*geneSCF*', to perform gene enrichment analysis.
 2. Next, is the '*prepare_database*' command line to prepare the necessary database of an organism. GeneSCF by default comes with database for human consists of gene ontology, KEGG, Reactome, and NCG.
 
-### 1. GeneSCF enrichment analysis - command line
+## 1. GeneSCF enrichment analysis - command line
 ``` r
 ./geneSCF -m=[update|normal] -i=[INPUT FILE] -t=[gid|sym] -o=[OUTPUT PATH/FOLDER/] -db=[GO_all|GO_BP|GO_MF|GO_CC|KEGG|REACTOME] -p=[yes|no] -bg=[#TotalGenes] -org=[see,org_codes_help]
 ```
@@ -81,7 +81,7 @@ There are two utilities available from GeneSCF package.
 
   </table>
   
-  ### 2. Preparing database - command line
+  ## 2. Preparing database - command line
   ``` r
   ./prepare_database -db=[GO_all|GO_BP|GO_MF|GO_CC|KEGG|REACTOME|NCG] -org=[see,org_codes_help directory]
   ```
@@ -99,10 +99,10 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
 1. Prepare your prefered database for an organism of your interest.
 2. Perform enrichment analysis on your gene list.
 
-### Preparing database
+## Preparing database
 
 
-#### Updating GeneSCF with complete geneontology database for human
+### Updating GeneSCF with complete geneontology database for human
 
   ``` r
 ./prepare_database -db=GO_all -org=goa_human
@@ -110,13 +110,13 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
   **Note:** Specific dabases can be also updated using 'GO_BP', 'GO_MF' and 'GO_CC'
   
  
- #### Updating GeneSCF with KEGG pathways for human
+ ### Updating GeneSCF with KEGG pathways for human
   
   ``` r
 ./prepare_database -db=KEGG -org=hsa
   ```
  
-#### Updating GeneSCF with Reactome pathways for human
+### Updating GeneSCF with Reactome pathways for human
 
   ``` r
 ./prepare_database -db=REACTOME -org=Hs
@@ -125,7 +125,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
    **Note:** Reactome supports only Human (Hs)
   
   
-  #### Updating GeneSCF with cancer genes human
+  ### Updating GeneSCF with cancer genes human
 
   ``` r
 ./prepare_database -db=NCG -org=Hs
@@ -137,13 +137,13 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
   ### Enrichment analysis
   
   
-  #### Functional enrichment analysis using geneontology biological process (GO_BP)
+  ### Functional enrichment analysis using geneontology biological process (GO_BP)
   
   ``` r
 ./geneSCF -m=normal -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=GO_BP -bg=20000 --plot=yes -org=goa_human
   ```
   
-  #### Pathway enrichment analysis using KEGG (GO_BP)
+  ### Pathway enrichment analysis using KEGG (GO_BP)
   
   ``` r
 ./geneSCF -m=normal -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=KEGG -bg=20000 --plot=yes -org=hsa
