@@ -170,6 +170,8 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
   
   ### Pathway enrichment analysis using KEGG
   
+  This '-m=update' mode will integrate both 'prepare_database' and 'geneSCF' into single command mode.
+  
   ``` r
 ./geneSCF -m=update -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=KEGG -bg=20000 --plot=yes -org=hsa
   ```
