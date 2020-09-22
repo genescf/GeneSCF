@@ -13,10 +13,12 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
    * [Overview](#overview)
    * [Installation](#installation)
    * [General usage](#general-usage)
-   * [Step-by-step instructions](#Step-by-step-instructions)
+   * [Step-by-step instructions (simple usage)](#Step-by-step-instructions)
       + [Preparing database](#Preparing-database)
       + [Enrichment analysis](#Enrichment-analysis)
-        + [output](#output)
+      + [Single-step enrichment analysis](#Single-step-enrichment-analysis)
+   * [GeneSCF batch analysis](#GeneSCF-batch-analysis)
+      + [Preparing database](#Preparing-database)
        
 
 
@@ -100,8 +102,9 @@ There are two utilities available from GeneSCF package.
 For a convenience we will use test datasets from the directory 'geneSCF-master-vx.x/test/'. There are two steps involved,
 1. Prepare your prefered database for an organism of your interest.
 2. Perform enrichment analysis on your gene list.
+3. One can also perform enrichment analysis in single-step using 'update' mode.
 
-## Preparing database
+## 1. Preparing database
 
 
 ### Updating GeneSCF with complete geneontology database for human
@@ -136,7 +139,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
    **Note:** NCG supports only Human (Hs)
   
   
-  ## Enrichment analysis
+  ## 2. Enrichment analysis
   
   
   ### Functional enrichment analysis using geneontology biological process (GO_BP)
@@ -145,7 +148,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
 ./geneSCF -m=normal -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=GO_BP -bg=20000 --plot=yes -org=goa_human
   ```
   
-  ### Pathway enrichment analysis using KEGG (GO_BP)
+  ### Pathway enrichment analysis using KEGG
   
   ``` r
 ./geneSCF -m=normal -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=KEGG -bg=20000 --plot=yes -org=hsa
@@ -153,5 +156,26 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
   
   ***Note:*** All predicted results can be found in '***geneSCF-master-vx.x/test/output/***' folder with file name '***{INPUT_FILE_NAME}_{database}_functional_classification.tsv***'
   
+  
+  ## 3. Single-step enrichment analysis
+  
+  ### Functional enrichment analysis using geneontology biological process (GO_BP)
+  
+  ``` r
+./geneSCF -m=update -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=GO_BP -bg=20000 --plot=yes -org=goa_human
+  ```
+  
+  ### Pathway enrichment analysis using KEGG
+  
+  ``` r
+./geneSCF -m=update -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=KEGG -bg=20000 --plot=yes -org=hsa
+  ```
+  
+  ***Note:*** All predicted results can be found in '***geneSCF-master-vx.x/test/output/***' folder with file name '***{INPUT_FILE_NAME}_{database}_functional_classification.tsv***'
+  
+ 
+ ----------------------------
+# GeneSCF batch analysis
+ 
   
 
