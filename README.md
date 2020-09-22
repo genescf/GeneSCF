@@ -150,7 +150,7 @@ There are two utilities available from GeneSCF package.
 ./geneSCF -m=normal -i=test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=KEGG -bg=20000 --plot=yes -org=hsa
   ```
   
-  ***Note:*** All predicted results will be in '***geneSCF-master-vx.x/test/output/***' folder with file name '***{INPUT_FILE_NAME}_{database}_functional_classification.tsv***'
+  ***Note:*** All predicted results can be found in '***geneSCF-master-vx.x/test/output/***' folder with file name '***{INPUT_FILE_NAME}_{database}_functional_classification.tsv***'
   
   
 
