@@ -97,11 +97,11 @@ There are two utilities available from GeneSCF package.
   </table>
   
   ----------------------------
-# Step-by-step instructions (test dataset) 
+# Step-by-step instructions
 
-There are two steps involved
+For a convenience we will use test datasets from the directory 'geneSCF-master-vx.x/test/'. There are two steps involved,
 1. Prepare your prefered database for an organism of your interest.
-2. Perform enrichment analysis for your gene list.
+2. Perform enrichment analysis on your gene list.
 
 ### 1. GeneSCF prepare database
 
