@@ -54,8 +54,8 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 - <b><i>Test required modules
 </i></b>: awk, cat, unzip, gzip, wget, rm, mkdir, sort, date, sed, paste, join, grep, curl, echo <br>
 - <b><i>For graphical output or plots</i></b>: If needed graphical output, pre installated <b>R (version > 3.0)</b> and '<b>ggplot2</b>' is required.<br>
-- <b><i>Note</i></b>: <br>
-<p style="color:#0000FF">GeneSCF only works on Linux system, it has been successfully tested on Ubuntu, Mint and Cent OS. Other distributions of Linux might work as well.</p>
+<b><i>Note</i></b>: <br>
+GeneSCF only works on Linux system, it has been successfully tested on Ubuntu, Mint and Cent OS. Other distributions of Linux might work as well.
 
 <br>
 
