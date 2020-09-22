@@ -21,7 +21,7 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
       + [Preparing arguments file](#Preparing-arguments-file)
       + [Edit batch script](#Edit-batch-script)
       + [Run batch analysis](#Run-batch-analysis)
-       
+   - [License](#License)
 
 
 
@@ -219,3 +219,9 @@ Execute batch analysis.
 ``` r
 ./geneSCF-master-vx.x/geneSCF-master-source-v1.1-p2/geneSCF_batch
 ```
+
+# License
+
+<a href="https://github.com/genescf/GeneSCF/blob/master/gpl-3.0.txt">GNU GENERAL PUBLIC LICENSE</a>
+
+
