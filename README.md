@@ -40,6 +40,10 @@ GeneSCF is a command line based and powerful tool to perform gene enrichment ana
 
 <p align="center"> <img src="http://genescf.kandurilab.org/pics/workflow.png" width="250" height="350"> </p>
 
+<img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12859-016-1250-z/MediaObjects/12859_2016_1250_Fig2_HTML.gif" width="250" height="350"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12859-016-1250-z/MediaObjects/12859_2016_1250_Fig3_HTML.gif" width="250" height="350"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12859-016-1250-z/MediaObjects/12859_2016_1250_Fig4_HTML.gif" width="250" height="350"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12859-016-1250-z/MediaObjects/12859_2016_1250_Fig5_HTML.gif" width="250" height="350">
+
+
+
 ----------------------------
 # Installation
 
