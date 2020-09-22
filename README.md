@@ -12,7 +12,8 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
 
    * [Overview](#overview)
    * [Installation](#installation)
-   * [Commands and parameters](#Command-and-parameters)
+   * [General usage](#general-usage)
+   * [Step-by-step instructions](#Step-by-step)
       * [Input files](#genescf-v1.0-input)
       * [Output files](#output-files)
          * [TSV](#tsv)
@@ -56,7 +57,7 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 
 
 ----------------------------
-# Command and parameters
+# General usage
 
 There are two utilities available from GeneSCF package. 
 
@@ -94,6 +95,52 @@ There are two utilities available from GeneSCF package.
   <tr><td>`[-db= | --database=]`</td><td>GO_all<br>GO_BP<br>GO_CC<br>GO_MF<br>KEGG<br>REACTOME<br>NCG<br></td><td>Database to use as a source for finding gene enrichment, the options are either geneontology <i>GO_all</i> or geneontology-biological_process <i>GO_BP</i> or geneontology-molecular_function <i>GO_MF</i> or geneontology-cellular_components <i>GO_CC</i> or kegg <i>KEGG</i> or reactome <i>REACTOME</i> or Network of Cancer Genes <i>NCG</i></td></tr>
   <tr><td>`[-org= | --organism=]`</td><td>[<a href="https://github.com/genescf/GeneSCF/tree/master/org_codes_help">see organism codes</a>]</td><td>Please see organism codes (For human in KEGG -><i>hsa</i> in Geneontology -> <i>goa_human</i>)</td></tr>
   </table>
+  
+  ----------------------------
+# Step-by-step instructions (test dataset) 
+
+
+### 1. GeneSCF prepare database
+
+
+#### Updating GeneSCF with complete geneontology database for human
+
+  ``` r
+./prepare_database -db=GO_all -org=goa_human
+  ```
+  **Note:** Specific dabases can be also updated using 'GO_BP', 'GO_MF' and 'GO_CC'
+  
+ 
+ #### Updating GeneSCF with KEGG pathways for human
+  
+  ``` r
+./prepare_database -db=KEGG -org=hsa
+  ```
+ 
+#### Updating GeneSCF with Reactome pathways for human
+
+  ``` r
+./prepare_database -db=REACTOME -org=Hs
+  ```
+  
+   **Note:** Reactome supports only Human (Hs)
+  
+  
+  #### Updating GeneSCF with cancer genes human
+
+  ``` r
+./prepare_database -db=NCG -org=Hs
+  ```
+  
+   **Note:** NCG supports only Human (Hs)
+  
+  
+  ### 2. GeneSCF Enrichment analysis
+  
+  
+  ``` r
+./geneSCF -m=normal -i=test/H0.list -o=test/output/ -t=sym -db=GO_MF -bg=20000 --plot=yes -org=goa_human
+  ```
   
   
   
