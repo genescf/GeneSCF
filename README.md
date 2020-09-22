@@ -186,7 +186,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
  
 ## Preparing arguments file
 
-Edit file './geneSCF-master-vx.x/db_batch_config.txt' to configure your parameters for batch run. The sample file looks like the one below,
+Edit file '***./geneSCF-master-vx.x/db_batch_config.txt***' to configure your parameters for batch run. The sample file looks like the one below,
 
 ``` r
 #database:organism:background:type
@@ -202,7 +202,7 @@ In the above file you are asking GeneSCF to run enrichment analysis using 'GO_CC
 
 ## Edit batch script
 
-Edit script './geneSCF-master-vx.x/geneSCF_batch' for your input files (files_path) and output path (output_path).
+Edit script '***./geneSCF-master-vx.x/geneSCF_batch***' for your input files (files_path) and output path (output_path).
 
 ``` r
 files_path="/FOLDER/WHERE/GENE_LISTS/STORED"
