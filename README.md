@@ -14,9 +14,9 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
    * [Installation](#installation)
    * [General usage](#general-usage)
    * [Step-by-step instructions (simple usage)](#Step-by-step-instructions)
-      + [Preparing database](#1.-Preparing-database)
-      + [Enrichment analysis](#2.-Enrichment-analysis)
-      + [Single-step enrichment analysis](#3.-Single-step-enrichment-analysis)
+      + [Preparing database](#1)-Preparing-database)
+      + [Enrichment analysis](#2)-Enrichment-analysis)
+      + [Single-step enrichment analysis](#3)-Single-step-enrichment-analysis)
    * [GeneSCF batch analysis](#GeneSCF-batch-analysis)
       + [Preparing arguments file](#Preparing-arguments-file)
       + [Edit batch script](#Edit-batch-script)
@@ -106,7 +106,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
 2. Perform enrichment analysis on your gene list.
 3. One can also perform enrichment analysis in single-step using 'update' mode.
 
-## 1. Preparing database
+## 1) Preparing database
 
 
 ### Updating GeneSCF with complete geneontology database for human
@@ -141,7 +141,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
    **Note:** NCG supports only Human (Hs)
   
   
-  ## 2. Enrichment analysis
+  ## 2) Enrichment analysis
   
   
   ### Functional enrichment analysis using geneontology biological process (GO_BP)
@@ -159,7 +159,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
   ***Note:*** All predicted results can be found in '***geneSCF-master-vx.x/test/output/***' folder with file name '***{INPUT_FILE_NAME}_{database}_functional_classification.tsv***'
   
   
-  ## 3. Single-step enrichment analysis
+  ## 3) Single-step enrichment analysis
   
   ### Functional enrichment analysis using geneontology biological process (GO_BP)
   
