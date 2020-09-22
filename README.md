@@ -184,8 +184,38 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
  
 ## Preparing arguments file
 
+Edit file './geneSCF-master-vx.x/db_batch_config.txt' to configure your parameters for batch run. The sample file looks like the one below,
+
+``` r
+#database:organism:background:type
+#GO_BP:goa_human:20000:sym
+#GO_MF:goa_human:20000:sym
+GO_CC:goa_human:20000:sym
+KEGG:hsa:20000:sym
+#REACTOME:Hs:20000:sym
+NCG:Hs:20000:sym
+```
+In the above file you are asking GeneSCF to run enrichment analysis using 'GO_CC', 'KEGG', and 'NCG' database. The database mentioned with preceeding '#' will not be considered for the run.
+
+
 ## Edit batch script
- 
+
+Edit script './geneSCF-master-vx.x/geneSCF_batch' for your input files (files_path) and output path (output_path).
+
+``` r
+files_path="/FOLDER/WHERE/GENE_LISTS/STORED"
+output_path="/FOLDER/PATH/FOR/OUTPUT"
+```
+
+**Note:**
+ - It is recommended to keep all input files in same folder.
+ - Inside specified output folder path GeneSCF will automatically create individual sub-folders for each gene list.
+
+
 ## Run batch analysis
 
+Execute batch analysis.
 
+``` r
+./geneSCF-master-vx.x/geneSCF-master-source-v1.1-p2/geneSCF_batch
+```
