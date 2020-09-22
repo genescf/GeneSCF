@@ -134,7 +134,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
    **Note:** NCG supports only Human (Hs)
   
   
-  ### Enrichment analysis
+  ## Enrichment analysis
   
   
   ### Functional enrichment analysis using geneontology biological process (GO_BP)
