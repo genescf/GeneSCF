@@ -59,8 +59,6 @@ Download and extract the compressed file using 'unzip' (for .zip file) or 'tar' 
 
 <br>
 
-![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
-
 
 ----------------------------
 # General usage
