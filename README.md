@@ -107,7 +107,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
 3. One can also perform enrichment analysis in single-step using 'update' mode.
 
 
-## Preparing database
+## 1. Preparing database
 
 
 ### Updating GeneSCF with complete geneontology database for human
