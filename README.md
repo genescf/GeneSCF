@@ -14,8 +14,8 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
    * [Installation](#installation)
    * [General usage](#general-usage)
    * [Step-by-step instructions](#Step-by-step-instructions)
-      * [1.Preparing database](###1.Preparing-database)
-      * [2.Enrichment analysis](###2.Enrichment-analysis)
+      * [Preparing database](###Preparing-database)
+      * [Enrichment analysis](###Enrichment-analysis)
          * [TSV](#tsv)
          * [Image](#image)
          * [GeneMap](#genemap)
@@ -103,7 +103,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
 1. Prepare your prefered database for an organism of your interest.
 2. Perform enrichment analysis on your gene list.
 
-### 1.Preparing database
+### Preparing database
 
 
 #### Updating GeneSCF with complete geneontology database for human
@@ -138,7 +138,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
    **Note:** NCG supports only Human (Hs)
   
   
-  ### 2.Enrichment analysis
+  ### Enrichment analysis
   
   
   #### Functional enrichment analysis using geneontology biological process (GO_BP)
