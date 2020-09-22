@@ -14,7 +14,7 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
    - [Installation](#installation)
    - [General usage](#general-usage)
    - [Step-by-step instructions (simple usage)](#Step-by-step-instructions)
-      + [Preparing database](#1\.-Preparing-database)
+      + [Preparing database](#Preparing-database)
       + [Enrichment analysis](#Enrichment-analysis)
       + [Single-step enrichment analysis](#Single-step-enrichment-analysis)
    - [GeneSCF batch analysis](#GeneSCF-batch-analysis)
@@ -107,7 +107,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
 3. One can also perform enrichment analysis in single-step using 'update' mode.
 
 
-## 1. Preparing database
+## Preparing database
 
 
 ### Updating GeneSCF with complete geneontology database for human
