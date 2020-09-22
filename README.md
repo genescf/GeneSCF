@@ -17,6 +17,13 @@ Read following page for [running GeneSCF on test dataset](https://github.com/gen
       * [Preparing database](##Preparing-database)
       * [Enrichment analysis](##Enrichment-analysis)
        
+   - [Overview](#overview)
+   - [Installation](#installation)
+   - [General usage](#general-usage)
+   - [Step-by-step instructions](#Step-by-step-instructions)
+      * Preparing database](##Preparing-database)
+      * [Enrichment analysis](##Enrichment-analysis)
+        + [Sub-sub-heading](#sub-sub-heading)
 
 
 ----------------------------
