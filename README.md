@@ -78,7 +78,7 @@ There are two utilities available from GeneSCF package.
 
 <table>
   <tr><th>Available Parameters in geneSCF</th><th>Options</th><th>Description</th></tr>
-  <tr><td>`[-m= | --mode=]`</td><td>normal<br>update</td><td>For normal mode use <i>normal</i> and for <i>update</i> mode use *update* without quotes</td></tr>
+  <tr><td> <b><i>-m=</b></i> | <b><i>--mode=</b></i> </td><td>normal<br>update</td><td>For normal mode use <i>normal</i> and for <i>update</i> mode use *update* without quotes</td></tr>
   <tr><td>`[-i= | --infile=]`</td><td>[INPUT-TEXT-FILE]</td><td>Input file contains list of Entrez GeneIDs or OFFICIAL GENE SYMBOLS.The genes must be new lines seperated (One gene per line)</td></tr>
   <tr><td>`[-t= | --gtype=]`</td><td>gid<br>sym</td><td>Type of input in the provided list either Entrez GeneIDs <i>gid</i> or OFFICIAL GENE SYMBOLS <i>sym</i> (default: *gid*)</td></tr>
   <tr><td>`[-db= | --database=]`</td><td>GO_all<br>GO_BP<br>GO_CC<br>GO_MF<br>KEGG<br>REACTOME<br>NCG<br></td><td>Database to use as a source for finding gene enrichment, the options are either geneontology <i>GO_all</i> or geneontology-biological_process <i>GO_BP</i> or geneontology-molecular_function <i>GO_MF</i> or geneontology-cellular_components <i>GO_CC</i> or kegg <i>KEGG</i> or reactome <i>REACTOME</i> or Network of Cancer Genes <i>NCG</i></td></tr>
