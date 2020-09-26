@@ -77,7 +77,7 @@ There are two utilities available from GeneSCF package.
 
 
 <table>
-  <tr><th>Available Parameters in geneSCF</th><th>Options</th><th>Description</th></tr>
+  <tr><th>Available-Parameters-in-geneSCF</th><th>Options</th><th>Description</th></tr>
   <tr><td> <b><i>-m=</b></i> | <b><i>--mode=</b></i> </td><td>normal<br>update</td><td>For normal mode use <i>normal</i> and for <i>update</i> mode use *update* without quotes</td></tr>
   <tr><td>`[-i= | --infile=]`</td><td>[INPUT-TEXT-FILE]</td><td>Input file contains list of Entrez GeneIDs or OFFICIAL GENE SYMBOLS.The genes must be new lines seperated (One gene per line)</td></tr>
   <tr><td>`[-t= | --gtype=]`</td><td>gid<br>sym</td><td>Type of input in the provided list either Entrez GeneIDs <i>gid</i> or OFFICIAL GENE SYMBOLS <i>sym</i> (default: *gid*)</td></tr>
