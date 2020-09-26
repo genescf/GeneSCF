@@ -1,5 +1,3 @@
-<a href="https://twitter.com/GeneSCF" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @GeneSCF</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 # GeneSCF
 Gene Set Clustering based on Functional annotation. Most up-to-date and realtime information based gene enrichment analysis.
