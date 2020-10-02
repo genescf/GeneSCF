@@ -96,7 +96,7 @@ There are two utilities available from GeneSCF package.
   ``` r
   ./geneSCF-master-vx.x/prepare_database -db=[GO_all|GO_BP|GO_MF|GO_CC|KEGG|REACTOME] -org=[see,org_codes_help directory]
   ```
-  <b>Note:</b> The above command downloads complete '-db' of your choice as simple text file in following location, '<b>geneSCF-master-vx.x/class/lib/db/[ORGANISM]/</b>' for your prefered organism.
+  <b>Note:</b> The above command downloads complete '-db' of your choice as simple text file with corresponding genes per GO term in following location, '<b>geneSCF-master-vx.x/class/lib/db/[ORGANISM]/</b>' for your prefered organism.
   
   <table>
   <tr><th>Available Parameters in prepare_database</th><th>Options</th><th>Description</th></tr>
