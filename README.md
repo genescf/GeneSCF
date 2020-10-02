@@ -96,6 +96,7 @@ There are two utilities available from GeneSCF package.
   ``` r
   ./geneSCF-master-vx.x/prepare_database -db=[GO_all|GO_BP|GO_MF|GO_CC|KEGG|REACTOME] -org=[see,org_codes_help directory]
   ```
+  <b>Note:</b> The above command downloads complete '-db' of your choice as simple text file in following location, '<b>geneSCF-master-vx.x/class/lib/db/[ORGANISM]/</b>' for your prefered organism.
   
   <table>
   <tr><th>Available Parameters in prepare_database</th><th>Options</th><th>Description</th></tr>
@@ -120,7 +121,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
   ``` r
 ./geneSCF-master-vx.x/prepare_database -db=GO_all -org=goa_human
   ```
-  **Note:** Specific dabases can be also updated using 'GO_BP', 'GO_MF' and 'GO_CC'
+  **Note:** Specific dabases can be also updated using 'GO_BP', 'GO_MF' and 'GO_CC'. The above command downloads complete geneontology ('GO_all') with corresponding genes per GO term as simple text file in following location, '<b>geneSCF-master-vx.x/class/lib/db/goa_human/</b>'.
   
  
  ### Updating GeneSCF with KEGG pathways for human
@@ -174,6 +175,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
   ``` r
 ./geneSCF-master-vx.x/geneSCF -m=update -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=GO_BP -bg=20000 --plot=yes -org=goa_human
   ```
+    **Note:** The above command also downloads complete geneontology biological processes ('GO_BP') with corresponding genes per GO term as a simple text file in following location, '<b>geneSCF-master-vx.x/class/lib/db/goa_human/</b>' and also does enrichment analysis in parallel. The results for enrichment analysis can be found in folder '<b>geneSCF-master-vx.x/test/output/</b>'.
   
   ### Pathway enrichment analysis using KEGG
   
