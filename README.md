@@ -69,7 +69,7 @@ There are two utilities available from GeneSCF package.
 1. One is the main command line '*geneSCF*', to perform gene enrichment analysis.
 2. Next, is the '*prepare_database*' command line to prepare the necessary database of an organism. GeneSCF by default comes with database for human consists of gene ontology, KEGG, Reactome, and NCG.
 
-<b>Note:</b> `Replace 'geneSCF-master-vx.x' from the commands with your GeneSCF directory.
+<b>Note:</b> Replace '<i>geneSCF-master-vx.x</i>' from the commands with your GeneSCF directory.
 
 ## 1. GeneSCF enrichment analysis - command line
 ``` r
