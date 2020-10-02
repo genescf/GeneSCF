@@ -163,7 +163,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
 ./geneSCF-master-vx.x/geneSCF -m=normal -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=KEGG -bg=20000 --plot=yes -org=hsa
   ```
   
-  ***Note:*** All predicted results can be found in '***geneSCF-master-vx.x/test/output/***' folder with file name '***{INPUT_FILE_NAME}_{database}_functional_classification.tsv***'
+ <b>Note:</b> All predicted results can be found in '***geneSCF-master-vx.x/test/output/***' folder with file name '***{INPUT_FILE_NAME}_{database}_functional_classification.tsv***'
   
   
   ## Single-step enrichment analysis
