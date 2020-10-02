@@ -94,7 +94,7 @@ There are two utilities available from GeneSCF package.
   
   ## 2. Preparing database - command line
   ``` r
-  ./prepare_database -db=[GO_all|GO_BP|GO_MF|GO_CC|KEGG|REACTOME] -org=[see,org_codes_help directory]
+  ./geneSCF-master-vx.x/prepare_database -db=[GO_all|GO_BP|GO_MF|GO_CC|KEGG|REACTOME] -org=[see,org_codes_help directory]
   ```
   
   <table>
@@ -118,7 +118,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
 ### Updating GeneSCF with complete geneontology database for human
 
   ``` r
-./prepare_database -db=GO_all -org=goa_human
+./geneSCF-master-vx.x/prepare_database -db=GO_all -org=goa_human
   ```
   **Note:** Specific dabases can be also updated using 'GO_BP', 'GO_MF' and 'GO_CC'
   
@@ -153,13 +153,13 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
   ### Functional enrichment analysis using geneontology biological process (GO_BP)
   
   ``` r
-./geneSCF -m=normal -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=GO_BP -bg=20000 --plot=yes -org=goa_human
+./geneSCF-master-vx.x/geneSCF -m=normal -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=GO_BP -bg=20000 --plot=yes -org=goa_human
   ```
   
   ### Pathway enrichment analysis using KEGG
   
   ``` r
-./geneSCF -m=normal -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=KEGG -bg=20000 --plot=yes -org=hsa
+./geneSCF-master-vx.x/geneSCF -m=normal -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=KEGG -bg=20000 --plot=yes -org=hsa
   ```
   
   ***Note:*** All predicted results can be found in '***geneSCF-master-vx.x/test/output/***' folder with file name '***{INPUT_FILE_NAME}_{database}_functional_classification.tsv***'
@@ -172,13 +172,13 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
   ### Functional enrichment analysis using geneontology biological process (GO_BP)
   
   ``` r
-./geneSCF -m=update -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=GO_BP -bg=20000 --plot=yes -org=goa_human
+./geneSCF-master-vx.x/geneSCF -m=update -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=GO_BP -bg=20000 --plot=yes -org=goa_human
   ```
   
   ### Pathway enrichment analysis using KEGG
   
   ``` r
-./geneSCF -m=update -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=KEGG -bg=20000 --plot=yes -org=hsa
+./geneSCF-master-vx.x/geneSCF -m=update -i=geneSCF-master-vx.x/test/H0.list -o=geneSCF-master-vx.x/test/output/ -t=sym -db=KEGG -bg=20000 --plot=yes -org=hsa
   ```
   
   ***Note:*** All predicted results can be found in '***geneSCF-master-vx.x/test/output/***' folder with file name '***{INPUT_FILE_NAME}_{database}_functional_classification.tsv***'
