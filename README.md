@@ -124,13 +124,13 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
  ### Updating GeneSCF with KEGG pathways for human
   
   ``` r
-./prepare_database -db=KEGG -org=hsa
+./geneSCF-master-vx.x/prepare_database -db=KEGG -org=hsa
   ```
  
 ### Updating GeneSCF with Reactome pathways for human
 
   ``` r
-./prepare_database -db=REACTOME -org=Hs
+./geneSCF-master-vx.x/prepare_database -db=REACTOME -org=Hs
   ```
   
    **Note:** Reactome supports only Human (Hs)
@@ -139,7 +139,7 @@ For a convenience we will use test datasets from the directory 'geneSCF-master-v
   ### Updating GeneSCF with cancer genes human
 
   ``` r
-./prepare_database -db=NCG -org=Hs
+./geneSCF-master-vx.x/prepare_database -db=NCG -org=Hs
   ```
   
    **Note:** NCG supports only Human (Hs)
