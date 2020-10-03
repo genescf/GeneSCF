@@ -1,5 +1,8 @@
-<table border=0><tr><td><img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.1/geneSCF-master-v1.1-p2.tar.gz"></td>
-<!--td><img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.0/geneSCF-master-v1.0.tar.gz"></td--></tr></table>
+
+<img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.1/geneSCF-master-v1.1-p2.tar.gz">
+
+<!--table border=0><tr><td><img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.1/geneSCF-master-v1.1-p2.tar.gz"></td>
+<td><img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.0/geneSCF-master-v1.0.tar.gz"></td></tr></table-->
 
 # GeneSCF
 Gene Set Clustering based on Functional annotation. Most up-to-date and realtime information based gene enrichment analysis.
