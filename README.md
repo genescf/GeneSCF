@@ -1,7 +1,7 @@
 
 <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/genescf/GeneSCF/total">
 
-<b>Important:</b> Always download <a href="https://github.com/genescf/GeneSCF/releases/download/v1.1/geneSCF-master-v1.1-p2.tar.gz">latest stable release</a>.
+<b>Important:</b> Always download latest stable release. To download latest release <a href="https://github.com/genescf/GeneSCF/releases/download/v1.1/geneSCF-master-v1.1-p2.tar.gz">click here</a>. Check here for <a href="https://github.com/genescf/GeneSCF/releases">other releases</a>.
 
 <!--table border=0><tr><td><img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.1/geneSCF-master-v1.1-p2.tar.gz"></td>
 <td><img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.0/geneSCF-master-v1.0.tar.gz"></td></tr></table-->
