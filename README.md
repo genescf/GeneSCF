@@ -13,7 +13,7 @@ Gene Set Clustering based on Functional annotation. Most up-to-date and realtime
 
 <!--p><span class="__dimensions_badge_embed__" data-doi="10.1186/s12859-016-1250-z" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script></p-->
 
-<span class="__dimensions_badge_embed__" data-doi="10.1186/s12859-016-1250-z" data-legend="hover-left" data-style="small_rectangle"></span>
+<p class="__dimensions_badge_embed__" data-doi="10.1186/s12859-016-1250-z" data-legend="hover-left" data-style="small_rectangle"></p>
 
 This documentation will provide detailed information on usage of GeneSCF tool (All versions).
 Read following page for [running GeneSCF on test dataset](https://github.com/genescf/GeneSCF/wiki).
