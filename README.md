@@ -11,7 +11,6 @@ Gene Set Clustering based on Functional annotation. Most up-to-date and realtime
 <br><b><i>Publication</i></b>: 
 <br>GeneSCF: a real-time based functional enrichment tool with support for multiple organisms. BMC Bioinformatics 17, 365 (2016).* https://doi.org/10.1186/s12859-016-1250-z
 
-<script src="https://unpkg.com/vue/dist/vue.min.js"></script><script src="https://unpkg.com/browse/@webcomponents/webcomponentsjs@2.0.0/webcomponents-loader.js"></script><script src="https://unpkg.com/data-metrics-badge/dist/data-metrics-badge.min.js"></script><data-metrics-badge doi="10.1186/s12859-016-1250-z" display="regular"></data-metrics-badge>
 
 This documentation will provide detailed information on usage of GeneSCF tool (All versions).
 Read following page for [running GeneSCF on test dataset](https://github.com/genescf/GeneSCF/wiki).
