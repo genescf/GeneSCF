@@ -1,4 +1,4 @@
-<table><tr><td><img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.1/geneSCF-master-v1.1-p2.tar.gz"></td>
+<table border=0><tr><td><img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.1/geneSCF-master-v1.1-p2.tar.gz"></td>
 <!--td><img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.0/geneSCF-master-v1.0.tar.gz"></td--></tr></table>
 
 # GeneSCF
