@@ -1,9 +1,10 @@
 
-<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/genescf/GeneSCF/total">
+
+
+<table><tr><td><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/genescf/GeneSCF/total"></td><td><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/genescf/GeneSCF"></td></tr></table>
 
 <b>Important:</b> Always download latest stable release. To download latest release <a href="https://github.com/genescf/GeneSCF/releases/download/v1.1/geneSCF-master-v1.1-p2.tar.gz">click here</a>. Check here for <a href="https://github.com/genescf/GeneSCF/releases">other releases</a>.
 
-<table><tr><td><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/genescf/GeneSCF"></td></tr></table>
 
 <!--table border=0><tr><td><img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.1/geneSCF-master-v1.1-p2.tar.gz"></td>
 <td><img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.0/geneSCF-master-v1.0.tar.gz"></td></tr></table-->
