@@ -3,6 +3,8 @@
 
 <b>Important:</b> Always download latest stable release. To download latest release <a href="https://github.com/genescf/GeneSCF/releases/download/v1.1/geneSCF-master-v1.1-p2.tar.gz">click here</a>. Check here for <a href="https://github.com/genescf/GeneSCF/releases">other releases</a>.
 
+<table><tr><td><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/genescf/GeneSCF"></td></tr></table>
+
 <!--table border=0><tr><td><img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.1/geneSCF-master-v1.1-p2.tar.gz"></td>
 <td><img alt="GitHub Releases (by Asset)" src="https://img.shields.io/github/downloads/genescf/GeneSCF/v1.0/geneSCF-master-v1.0.tar.gz"></td></tr></table-->
 
@@ -14,6 +16,8 @@ Gene Set Clustering based on Functional annotation. Most up-to-date and realtime
 
 This documentation will provide detailed information on usage of GeneSCF tool (All versions).
 Read following page for [running GeneSCF on test dataset](https://github.com/genescf/GeneSCF/wiki).
+
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/GeneSCF?style=social">
 
 ----------------------------
 # Table of Contents
