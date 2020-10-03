@@ -1,4 +1,4 @@
-[![Downloads](https://pepy.tech/badge/GeneSCF)](https://pepy.tech/genescf/GeneSCF)
+[![Downloads](https://github.com/genescf/GeneSCF)](https://github.com/genescf/GeneSCF)
 
 # GeneSCF
 Gene Set Clustering based on Functional annotation. Most up-to-date and realtime information based gene enrichment analysis.
