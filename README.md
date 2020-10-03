@@ -1,4 +1,4 @@
-[![Github All Releases](https://img.shields.io/github/downloads/genescf/GeneSCF/total.svg)]()
+[![Downloads](https://pepy.tech/badge/video2tfrecord)](https://pepy.tech/project/video2tfrecord)
 
 # GeneSCF
 Gene Set Clustering based on Functional annotation. Most up-to-date and realtime information based gene enrichment analysis.
