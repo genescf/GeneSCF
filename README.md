@@ -1,6 +1,5 @@
 <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/genescf/GeneSCF/total?label=Downloads">
 
-
 # GeneSCF
 Gene Set Clustering based on Functional annotation. Most up-to-date and realtime information based gene enrichment analysis.
 <br><b><i>Publication</i></b>: 
