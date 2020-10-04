@@ -16,7 +16,7 @@ Gene Set Clustering based on Functional annotation. Most up-to-date and realtime
 
 
 This documentation will provide detailed information on usage of GeneSCF tool (All versions).
-Read following page for [running GeneSCF on test dataset](https://github.com/genescf/GeneSCF/wiki).
+Read following page for [running GeneSCF on test dataset](#Step-by-step-instructions).
 
 <a href="https://twitter.com/GeneSCF"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/GeneSCF?style=social"></a>
 
