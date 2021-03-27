@@ -1,5 +1,4 @@
 
-
 <table><tr><td><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/genescf/GeneSCF/total"></td><td><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/genescf/GeneSCF"></td></tr></table>
 
 <b>Note (JFY):</b> GeneSCF was recently (September 2020) moved to GitHub. It has been downloaded 5,325 times when hosted on http://genescf.kandurilab.org
