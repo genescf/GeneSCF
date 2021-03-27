@@ -1,6 +1,5 @@
 
 
-
 <table><tr><td><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/genescf/GeneSCF/total"></td><td><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/genescf/GeneSCF"></td></tr></table>
 
 <b>Note (JFY):</b> GeneSCF was recently (September 2020) moved to GitHub. It has been downloaded 5,325 times when hosted on http://genescf.kandurilab.org
@@ -16,7 +15,6 @@ Gene Set Clustering based on Functional annotation. Most up-to-date and realtime
 <br><b><i>Publication</i></b>: 
 <br>GeneSCF: a real-time based functional enrichment tool with support for multiple organisms. BMC Bioinformatics 17, 365 (2016). https://doi.org/10.1186/s12859-016-1250-z
 
-<div data-badge-details="right" data-badge-type="medium-donut" data-doi="https://doi.org/10.1186/s12859-016-1250-z" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
 This documentation will provide detailed information on usage of GeneSCF tool (All versions).
 Read following page for [running GeneSCF on test dataset](#Step-by-step-instructions).
