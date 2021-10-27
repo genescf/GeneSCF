@@ -1,4 +1,4 @@
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=genescf)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=genescf&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 <table><tr><td><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/genescf/GeneSCF/total"></td><td><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/genescf/GeneSCF"></td></tr></table>
 
