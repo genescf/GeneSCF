@@ -48,7 +48,7 @@ print "$genescf_note";
 print "\n$database last updated $kup\n";
 
 print "Example input types\n---------------\ngid |\tsym\n";
-$gene_type=`curl -s http://rest.kegg.jp/list/${organism} | grep -v "uncharacterized"| sort -R | head -n10 | sed 's/^${organism}\://' | sed 's/\; /\t/' | cut -f1,2`; ## Edited 2017/07/07
+$gene_type=`curl -s https://rest.kegg.jp/list/${organism} | grep -v "uncharacterized"| sort -R | head -n10 | sed 's/^${organism}\://' | sed 's/\; /\t/' | cut -f1,2`; ## Edited 2017/07/07
 print $gene_type;
 
 $ginput=$INFILE;
@@ -67,13 +67,13 @@ print "\n$database last updated $kup\n";
 
 print "Example input types\n---------------\ngid |\tsym\n";
 #$gene_type=`curl -s http://rest.kegg.jp/list/${organism} | grep -v "uncharacterized"| head -n10 | sed 's/^${organism}\://' | sed 's/\;/\t/' | awk '{print \$1"\t"\$2;}'`;
-$gene_type=`curl -s http://rest.kegg.jp/list/${organism} | grep -v "uncharacterized"| sort -R | head -n10 | sed 's/^${organism}\://' | sed 's/\; /\t/' | cut -f1,2`; ## Added 2017/01/13 # Edited 2017/07/07
+$gene_type=`curl -s https://rest.kegg.jp/list/${organism} | grep -v "uncharacterized"| sort -R | head -n10 | sed 's/^${organism}\://' | sed 's/\; /\t/' | cut -f1,2`; ## Added 2017/01/13 # Edited 2017/07/07
 print $gene_type;
 
 print "=> Retreving gene list for ${organism} from $database\n";
 #$cmd=`curl -s -S http://rest.kegg.jp/list/${organism} | sed "s/${organism}\://" > $DIR/mapping/DB/@{myout[$#myout]}_gene_list.txt;`; ## Edited 2010/07/24
 
-$cmd=`curl -s -S http://rest.kegg.jp/list/${organism} | sed "s/${organism}\://" | sed 's/; /\t/' | cut -f1,2> $DIR/mapping/DB/@{myout[$#myout]}_gene_list.txt;`; ## Added 2017/06/01 # Edited 2017/07/07
+$cmd=`curl -s -S https://rest.kegg.jp/list/${organism} | sed "s/${organism}\://" | sed 's/; /\t/' | cut -f1,2> $DIR/mapping/DB/@{myout[$#myout]}_gene_list.txt;`; ## Added 2017/06/01 # Edited 2017/07/07
 
 print "=> Mapping user list\n";
 $cmd=`perl $DIR/class/scripts/mappingIDS.pl $DIR/mapping/DB/@{myout[$#myout]}_gene_list.txt $INFILE $DIR | awk '!x[\$0]++' > $OUTPATH/@{myout[$#myout]}_user_mapped.list`; ## Edited 2010/07/24
