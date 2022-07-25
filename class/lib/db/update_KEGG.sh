@@ -15,19 +15,19 @@
 organism=$1;
 DIR=$2;
 mkdir -p $DIR/class/lib/db/${organism};
-TOTAL=$(curl -g -s -S "http://rest.kegg.jp/list/pathway/$organism" | wc -l);
+TOTAL=$(curl -g -s -S "https://rest.kegg.jp/list/pathway/$organism" | wc -l);
 DT=`/bin/date`;
 echo "processing started....$DT";
 echo "Retreiving $TOTAL KEGG pathways for $organism";
 echo "Do not panic. The processing is going on...";
-PATHWAY=$(curl -g -s -S "http://rest.kegg.jp/list/pathway/$organism" | sed "s/path\://" | cut -f1);
+PATHWAY=$(curl -g -s -S "https://rest.kegg.jp/list/pathway/$organism" | sed "s/path\://" | cut -f1);
 (
 for i in $PATHWAY; do
 {
 
-t1=$(curl -g -s -S "http://rest.kegg.jp/link/$organism/$i" | sed "s/path\://g" | sed "s/$organism\://g" | awk 'BEGIN{FS="\t"}{ if( !seen[$1]++ ) order[++oidx] = $1; stuff[$1] = stuff[$1] $2 "," } END { for( i = 1; i <= oidx; i++ ) print order[i]"\t"stuff[order[i]] }' | cut -f2 )
+t1=$(curl -g -s -S "https://rest.kegg.jp/link/$organism/$i" | sed "s/path\://g" | sed "s/$organism\://g" | awk 'BEGIN{FS="\t"}{ if( !seen[$1]++ ) order[++oidx] = $1; stuff[$1] = stuff[$1] $2 "," } END { for( i = 1; i <= oidx; i++ ) print order[i]"\t"stuff[order[i]] }' | cut -f2 )
 
-t2=$(curl -g -s -S "http://rest.kegg.jp/list/pathway/$organism" | grep -w "$i" | sed "s/path\://" | sed "s/\t/~/" | sed "s/ - /\t/" | cut -f1 | sed "s/ /_/g" )
+t2=$(curl -g -s -S "https://rest.kegg.jp/list/pathway/$organism" | grep -w "$i" | sed "s/path\://" | sed "s/\t/~/" | sed "s/ - /\t/" | cut -f1 | sed "s/ /_/g" )
 
 
 
